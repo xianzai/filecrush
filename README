@@ -21,6 +21,10 @@ Crush consumes directories containing many small files with the same key and val
 * Swap smaller files with generated large files in-place
 * No long-running task problem
 
+BUILD
+
+mvn -Dmaven.test.skip=true package
+
 See the EXAMPLES section
 
 ARGUMENTS
